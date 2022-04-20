@@ -130,8 +130,6 @@ class TestCustomerController {
 
 			assertEquals(orders, ordersArr.size(), 
             "Expect %s orders. Got %s orders".formatted(orders,  ordersArr.size()));
-	
-
 	}
 
 }
