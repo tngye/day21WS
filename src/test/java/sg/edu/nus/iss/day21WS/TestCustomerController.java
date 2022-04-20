@@ -24,11 +24,7 @@ import sg.edu.nus.iss.day21WS.services.CustomersService;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class Day21WsApplicationTests {
-
-
-	@Autowired 
-	private CustomersService cSvc;
+class TestCustomerController {
 
 	@Autowired
     private MockMvc mvc;

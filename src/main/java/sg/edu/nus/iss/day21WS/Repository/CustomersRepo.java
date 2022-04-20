@@ -55,6 +55,7 @@ public class CustomersRepo {
             orders.add(order);
         }
 
+        System.out.println(">>>>orders: " + orders);
         return orders;
     }
     

@@ -31,6 +31,8 @@ public class CustomersService {
 
     public List<Orders> getOrdersByCid(Integer cid) throws InvalidResultSetAccessException, ParseException {
         List<Orders> list = cRepo.getOrdersByCid(cid);
+        System.out.println(">>>list: " + list);
+        System.out.println(">>>list: " + list.size());
         return list;
     }
 }
